@@ -32,7 +32,6 @@
     <nav class="header-nav">
       <ul class="undotted header-list">
         <li class="header-item">
-
           <a href="#">Blog</a>
         </li>
         <li class="header-item">
@@ -41,7 +40,6 @@
         <li class="header-item">
           <a href="#">About Us</a>
         </li>
-
       </ul>
     </nav>
     <!--иконка поиска-->
@@ -53,7 +51,9 @@
       </svg>
     </a>
     <!--иконка поиска-->
-    <a href="#" class="header-contuct-us">Contact Us</a>
+    <div class="header-contuct-us">
+      <a href="#">Contact Us</a>
+    </div>
   </header>
   <main>
     <section class="banner container">
@@ -61,18 +61,22 @@
         <div class="banner-slider-counter">
           <span class="banner-current-slde-num">01</span>
           <ul class="undotted banner-slider-counter-list">
-            <li class="banner-slider-counter-item banner-slider-counter-btn-active"><button type="button" class="banner-slider-counter-btn"></button></li>
-            <li class="banner-slider-counter-item"><button type="button" class="banner-slider-counter-btn"></button></li>
-            <li class="banner-slider-counter-item"><button type="button" class="banner-slider-counter-btn"></button></li>
-            <li class="banner-slider-counter-item"><button type="button" class="banner-slider-counter-btn"></button></li>
+            <li class="banner-slider-counter-item banner-slider-counter-btn-active"><button type="button"
+                class="banner-slider-counter-btn"></button></li>
+            <li class="banner-slider-counter-item"><button type="button" class="banner-slider-counter-btn"></button>
+            </li>
+            <li class="banner-slider-counter-item"><button type="button" class="banner-slider-counter-btn"></button>
+            </li>
+            <li class="banner-slider-counter-item"><button type="button" class="banner-slider-counter-btn"></button>
+            </li>
           </ul>
         </div>
         <div class="banner-txt">
           <h1>THE OOH NOO COLLECTION</h1>
-          <p>Designed in Slovenia</p>
+          <h3>Designed in Slovenia</h3>
           <a href="#" class="button">EXPLORE NOW</a>
         </div>
-        <img src="img/banner.png" width="635px" height="461px" alt="THE OOH NOO COLLECTION">
+        <img src="img/banner.png" alt="THE OOH NOO COLLECTION">
       </div>
       <p class="banner-footer">Free (continental) USA shipping on all orders of $100 USD or more!</p>
     </section>
@@ -135,12 +139,13 @@
       </div>
     </Section>
     <section class="partners container">
-      <h3>partners</h3>
+      <h3 class="hidden">partners</h3>
       <div class="partners-img-container">
         <img src="img/mail_ru.png" width="193" height="60" alt="mail.ru group">
         <img src="img/apple.png" width="179" height="61" alt="Apple">
         <img src="img/eltex.png" width="216" height="46" alt="Eltex">
         <img src="img/owox.png" width="211" height="40" alt="Owox">
+      </div>
     </section>
     <div class="container blue-rectangles">
       <section class="aboutus">
@@ -161,10 +166,9 @@
   <footer>
     <div class="container footer-columns">
       <section class="footer-navigation footer-column-prop">
-        <h4>
-          Navigation
-        </h4>
-        <hr class="footer-hr">
+        <h4 class="hidden">Navigation</h4>
+        Navigation
+        <div class="footer-hr"></div>
         <ul class="undotted footer-columns-ul">
           <li>
             <a href="#">About Us</a>
@@ -187,10 +191,9 @@
         </ul>
       </section>
       <section class="footer-customer-information footer-column-prop">
-        <h4>
-          Customer Information
-        </h4>
-        <hr class="footer-hr">
+        <h4 class="hidden">Customer Information</h4>
+        Customer Information
+        <div class="footer-hr"></div>
         <ul class="undotted footer-columns-ul">
           <li>
             <a href="#">Contact Us</a>
@@ -213,11 +216,10 @@
         </ul>
       </section>
       <section class="footer-connect footer-column-prop">
-        <h4>
-          Connect
-        </h4>
-        <hr class="footer-hr">
-        <input class="input-email"type="email" placeholder="Email">
+        <h4 class="hidden">Connect</h4>
+        Connect
+        <div class="footer-hr"></div>
+        <input class="input-email" type="email" placeholder="Email">
         <button class="button">Join</button>
         <ul class="undotted social-icons">
           <li>
@@ -271,23 +273,22 @@
         </ul>
       </section>
     </div>
-    <hr class="container footer-hr">
+    <div class="container footer-hr"></div>
     <div class="container footer-last-row">
       <div class="footer-column-prop">
         <div class="rating-wrapper">
-        <div class="rating-caption">Company Rating</div>
-        <fieldset class="rating">
-          <div class="rating-group">
-            <input class="rating-star" type="radio" name="health" value="1" aria-label="1">
-            <input class="rating-star" type="radio" name="health" value="2" aria-label="2">
-            <input class="rating-star" type="radio" name="health" value="3" aria-label="3">
-            <input class="rating-star" type="radio" name="health" value="4" aria-label="4">
-            <input class="rating-star" type="radio" name="health" value="5" aria-label="5">
-          </div>
-        </fieldset>
+          <div class="rating-caption">Company Rating</div>
+          <fieldset class="rating">
+            <div class="rating-group">
+              <input class="rating-star" type="radio" name="health" value="1" aria-label="1">
+              <input class="rating-star" type="radio" name="health" value="2" aria-label="2">
+              <input class="rating-star" type="radio" name="health" value="3" aria-label="3">
+              <input class="rating-star" type="radio" name="health" value="4" aria-label="4">
+              <input class="rating-star" type="radio" name="health" value="5" aria-label="5">
+            </div>
+          </fieldset>
+        </div>
       </div>
-      </div>
-
       <div class="footer-column-prop">
         Copyright © 2018 Dlk • Design Life Kids
       </div>
