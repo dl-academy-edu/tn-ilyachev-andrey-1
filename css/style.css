@@ -86,6 +86,7 @@ h5 {
     padding: 9px 22px;
     border: none;
     margin: 0;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -188,13 +189,14 @@ h5 {
     border: 0;
     width: 31px;
     height: 3px;
-    background: #D6CAC2;   ;
+    background: #D6CAC2;
+    ;
     margin: 0;
     padding: 0;
     cursor: pointer;
 }
 
-.banner-slider-counter-btn:hover{
+.banner-slider-counter-btn:hover {
     background: #1E060699;
 }
 
@@ -296,6 +298,7 @@ h5 {
     border: 0px;
     margin-right: 6px;
     background-color: #70BBDC33;
+    cursor: pointer;
 }
 
 .category-nav-btn:hover path {
