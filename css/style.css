@@ -96,8 +96,6 @@ h5 {
     background: #CFAF91;
 }
 
-
-
 .undotted {
     list-style-type: none;
     padding: 0;
@@ -155,7 +153,6 @@ h5 {
 }
 
 .banner-wrapper img {
-
     margin-right: 100px;
     margin-top: -89px;
 }
@@ -191,16 +188,20 @@ h5 {
     border: 0;
     width: 31px;
     height: 3px;
-    background: #D6CAC2;
+    background: #D6CAC2;   ;
     margin: 0;
     padding: 0;
+    cursor: pointer;
+}
+
+.banner-slider-counter-btn:hover{
+    background: #1E060699;
 }
 
 .banner-slider-counter-btn-active {
     background: #1E060699;
     width: 31px;
 }
-
 
 .banner-txt {
     margin-top: 63px;
@@ -216,8 +217,6 @@ h5 {
     line-height: 25px;
     margin-bottom: 27px;
 }
-
-
 
 .banner-footer {
     text-transform: uppercase;
@@ -299,11 +298,11 @@ h5 {
     background-color: #70BBDC33;
 }
 
-.category-nav-btn path:hover {
+.category-nav-btn:hover path {
     stroke: #C29974;
 }
 
-.category-nav-btn path:active {
+.category-nav-btn:active path {
     stroke: #CFAF91;
 }
 
@@ -369,7 +368,6 @@ h5 {
 }
 
 .features-txt p {
-
     padding-left: 59px;
     max-width: 540px;
 }
@@ -476,8 +474,6 @@ footer {
 .footer-columns-ul {
     margin-top: 30px;
     margin-bottom: 28px;
-    ;
-
 }
 
 .footer-columns li {
@@ -486,7 +482,6 @@ footer {
 
 .footer-columns a {
     color: #FFFFFF;
-
 }
 
 .footer-columns {
@@ -517,7 +512,6 @@ footer {
 }
 
 .social-icons li {
-
     margin-right: 10px;
 }
 
@@ -533,9 +527,7 @@ footer {
     border: none;
     margin: 0;
     padding: 0;
-
 }
-
 
 .rating-caption {
     margin: 0 27px 0 0;
@@ -562,6 +554,7 @@ footer {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
+    cursor: pointer;
 }
 
 .rating-star:checked, .rating-star:hover {
@@ -570,7 +563,6 @@ footer {
 
 .rating-star:nth-of-type(1) {
     width: 20px;
-
     z-index: 5;
 }
 
@@ -582,26 +574,19 @@ footer {
 
 .rating-star:nth-of-type(3) {
     width: 60px;
-
-
     z-index: 3;
 }
 
 .rating-star:nth-of-type(4) {
-
     width: 80px;
-
     z-index: 2;
 }
 
 .rating-star:nth-of-type(5) {
-
     width: 100px;
-
     z-index: 1;
 }
 
 .rating-wrapper:hover {
     color: #C29974;
-
 }
