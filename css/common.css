@@ -177,6 +177,21 @@ h5 {
     font-weight: 700;
 }
 
+.bread-crumbs {
+    margin-top: -10px;
+}
+
+.bread-crumbs-item::after {
+    content: url(/img/arrow.svg);
+    margin-left: 22px;
+    margin-right: 20PX;
+}
+
+.bread-crumbs-item-active {
+    color: #8f8282;
+    margin: 0;
+}
+
 footer {
     margin-top: 155px;
     background-color: #434343;

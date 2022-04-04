@@ -14,8 +14,8 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/catalog.css">
-  <title>Catalog</title>
+  <link rel="stylesheet" href="css/toys.css">
+  <title>toys</title>
 </head>
 
 <body>
@@ -57,43 +57,66 @@
       <a href="#">Contact Us</a>
     </div>
   </header>
-  <main class="container">
-    <h1>Category Products</h1>
-    <div class="bread-crumbs "><a href="#" class="crimson-text bread-crumbs-item">Home</a><span
-        class="crimson-text bread-crumbs-item-active">Catalog</span></div>
-    <section class="categories">
-      <ul class="undotted first-row">
-        <li class="aparel-kids category-box">
-          <a href="#">APPAREL KIDS</a>
-        </li>
-        <li class="holiday-shop category-box">
-          <a href="#">HOLIDAY SHOP</a>
-        </li>
-        <li class="toys category-box">
-          <a href="toys.html">TOYS</a>
-        </li>
-      </ul>
-      <ul class="undotted second-row">
-        <li class="accessories category-box">
-          <a href="#">ACCESSORIES</a>
-        </li>
-        <li class="sale category-box">
-          <a href="#">SALE</a>
-        </li>
-        <li class="apparel-adults category-box">
-          <a href="#">APPAREL ADULTS</a>
-        </li>
-      </ul>
-    </section>
-    <section class="product-description">
-      <h2>Product Description</h2>
-      <p class="product-description-text">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and
-        almost really cry. You can even bathe her, just like a little sister.</p>
-      <p class="product-description-text">A toy with a height of 43 cm bends its knees, the head rotates, it can stand
-        upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
-      <p class="product-description-text">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle
-        for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other
-        for her young mistress.</p>
+  <main>
+    <h1 class="container">Toy for kids</h1>
+    <div class="bread-crumbs container">
+      <a href="#" class="crimson-text bread-crumbs-item">Home</a><a href="#"
+        class="crimson-text bread-crumbs-item">Catalog</a>
+      <span class="crimson-text bread-crumbs-item-active">Toys</span>
+    </div>
+    <section class="filters">
+      <h4 class="hidden">filter</h4>
+      <form class="container">
+        <ul class="filter-sections undotted">
+          <li class="filter-section-cost">
+            <h5>Cost</h5>
+            <input type="range" min="1" max="500" value="0" class="slider">
+            <span class="start-slider">0</span><span class="stop-slider">500</span>
+            <div class="range-pointer"></div>
+          </li>
+          <li class="filter-section-color">
+            <h5>Color</h5>
+            <ul class="undotted color-checkbox">
+              <li>
+                <label class="checkbox-label">
+                  <input type="checkbox" class="checkbox-input">
+                  <span class="checkbox"></span>
+                  Black
+                </label>
+              </li>
+              <li>
+                <label class="checkbox-label">
+                  <input type="checkbox" class="checkbox-input">
+                  <span class="checkbox"></span>
+                  Blue
+                </label>
+              </li>
+              <li>
+                <label class="checkbox-label">
+                  <input type="checkbox" class="checkbox-input">
+                  <span class="checkbox"></span>
+                  Green
+                </label>
+              </li>
+              <li>
+                <label class="checkbox-label">
+                  <input type="checkbox" class="checkbox-input">
+                  <span class="checkbox"></span>
+                  White
+                </label>
+              </li>
+            </ul>
+          </li>
+          <li class="filter-section-delivery">
+            <h5>Delivery</h5>
+          </li>
+          <li class="filter-section-amount">
+            <h5>Amount</h5>
+          </li>
+          <li class="filter-section-apply"><button class="button">apply</button></li>
+        </ul>
+      </form>
+
     </section>
   </main>
   <footer>

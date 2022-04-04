@@ -1,0 +1,100 @@
+h1 {
+padding-top: 20px;
+}
+.bread-crumbs{
+    margin-top: 16px;
+}
+.bread-crumbs-item-active{
+    margin-left: -5px;
+}
+
+.filters{
+    margin-top: 43px;
+    background-color: rgba(125, 151, 218, 0.2);
+}
+.filters form{
+    padding-top: 17px;
+    height: 254px;
+}
+.filter-sections{
+    display: flex;
+}
+.filter-section-cost{
+    width: 301px;
+
+}
+.filter-section-color{
+    width: 199px; 
+}
+.filter-section-delivery{
+    width: 200px;
+}
+.filter-section-amount{
+    width: 301px;
+}
+.filter-section-apply{
+    margin-top: 63px;
+}
+.filter-sections h5{
+    margin-bottom: 11px;
+}
+.slider{
+    margin-left: 3px;
+    -webkit-appearance: none;
+    width: 188px;
+    height: 3px;
+    background-color: #73757c;
+    cursor: pointer;
+position: relative;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: #c29974;
+    background-image: url(../img/white-dot.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.start-slider{
+    position: absolute;
+    margin-top: 34px;
+    margin-left: -193px;
+}
+.stop-slider{
+    position: absolute;
+    margin-top: 34px;
+    margin-left: -13px;
+}
+
+.color-checkbox{
+    margin-top: 15px;
+}
+
+
+.checkbox-input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.color-checkbox li{
+   margin-bottom: 15px;
+    padding: 0;
+}
+.checkbox{
+    margin-left: -29px;
+    width: 20px;
+    height: 20px;
+position: absolute;
+    background: url(../img/checkbox-off.svg) no-repeat center;
+}
+.checkbox-label{
+    margin-left: -4px;
+    padding-left: 29px;
+}
+.checkbox-input:checked + .checkbox{
+
+    background: url(../img/checkbox-on.svg) no-repeat center;
+}
