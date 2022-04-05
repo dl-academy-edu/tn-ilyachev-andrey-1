@@ -210,37 +210,7 @@ h1 {
     background-color: rgba(229, 234, 248, 0.67);
 }
 
-.pagination {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.pagination-ul {
-    display: flex;
-    justify-content: center;
-    width: 243px;
-
-}
-
-.pagination-li {
-    margin-right: 33px;
-    margin-left: 33px;
-}
-
-.pagination-li h5 {
-    margin-top: 2px;
-    cursor: pointer;
-}
 
 footer {
     margin-top: 35px;
-}
-
-.pagination-li h5:hover {
-    color: #AAAAAA;
-}
-
-.pagination-active {
-    color: #C29974;
 }

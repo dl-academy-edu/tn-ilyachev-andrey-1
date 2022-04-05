@@ -192,6 +192,37 @@ h5 {
     margin: 0;
 }
 
+.pagination {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination-ul {
+    display: flex;
+    justify-content: center;
+    width: 243px;
+}
+
+.pagination-li {
+    margin-right: 33px;
+    margin-left: 33px;
+}
+
+.pagination-li h5 {
+    font-family: 'Montserrat';
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.pagination-li h5:hover {
+    color: #AAAAAA;
+}
+
+.pagination-active {
+    color: #C29974;
+}
+
 footer {
     margin-top: 155px;
     background-color: #434343;
