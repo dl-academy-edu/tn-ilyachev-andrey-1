@@ -1,54 +1,66 @@
 h1 {
-padding-top: 20px;
+    padding-top: 20px;
 }
-.bread-crumbs{
+
+.bread-crumbs {
     margin-top: 16px;
 }
-.bread-crumbs-item-active{
+
+.bread-crumbs-item-active {
     margin-left: -5px;
 }
 
-.filters{
+.filters {
     margin-top: 43px;
     background-color: rgba(125, 151, 218, 0.2);
 }
-.filters form{
+
+.filters form {
     padding-top: 17px;
     height: 254px;
 }
-.filter-sections{
+
+.filter-sections {
     display: flex;
 }
-.filter-section-cost{
+
+.filter-section-cost {
     width: 301px;
 
 }
-.filter-section-color{
-    width: 199px; 
+
+.filter-section-color {
+    width: 199px;
 }
-.filter-section-delivery{
+
+.filter-section-delivery {
     width: 200px;
 }
-.filter-section-amount{
+
+.filter-section-amount {
     width: 301px;
 }
-.filter-section-apply{
+
+.filter-section-apply {
     margin-top: 63px;
 }
-.filter-sections h5{
+
+.filter-sections h5 {
     margin-bottom: 11px;
 }
-.slider{
+
+.slider {
     margin-left: 3px;
     -webkit-appearance: none;
     width: 188px;
     height: 3px;
     background-color: #73757c;
     cursor: pointer;
-position: relative;
-/* overflow: hidden; */
+    position: relative;
+    /* overflow: hidden; */
 }
-.slider::-webkit-slider-thumb{
+
+.slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 24px;
     height: 24px;
@@ -61,94 +73,174 @@ position: relative;
 
 }
 
-.start-slider{
+.start-slider {
     position: absolute;
     margin-top: 34px;
     margin-left: -193px;
 }
-.stop-slider{
+
+.stop-slider {
     position: absolute;
     margin-top: 34px;
     margin-left: -13px;
 }
 
-.filter-ul{
+.filter-ul {
     margin-top: 15px;
 }
 
 
-.input-disappeared{
+.input-disappeared {
     -webkit-appearance: none;
     -moz-appearance: none;
 }
-.filter-ul li{
-   margin-bottom: 15px;
+
+.filter-ul li {
+    margin-bottom: 15px;
     padding: 0;
 }
-.checkbox{
+
+.checkbox {
     margin-left: -29px;
     width: 20px;
     height: 20px;
-position: absolute;
+    position: absolute;
     background: url(../img/checkbox-off.svg) no-repeat center;
 }
-.checkbox-label{
+
+.checkbox-label {
     margin-left: -4px;
     padding-left: 29px;
 }
-.input-disappeared:checked + .checkbox{
+
+.input-disappeared:checked+.checkbox {
 
     background: url(../img/checkbox-on.svg) no-repeat center;
 }
 
-.radio-delivery-label{
+.radio-delivery-label {
     margin-left: -4px;
     padding-left: 29px;
 }
 
-.radio-delivery{
-        margin-left: -29px;
-        width: 20px;
-        height: 20px;
+.radio-delivery {
+    margin-left: -29px;
+    width: 20px;
+    height: 20px;
     position: absolute;
-        background: url(../img/radio-off.svg) no-repeat center;
+    background: url(../img/radio-off.svg) no-repeat center;
 }
-.input-disappeared:checked + .radio-delivery{
+
+.input-disappeared:checked+.radio-delivery {
 
     background: url(../img/radio-on.svg) no-repeat center;
 }
-.radio-ul li{
+
+.radio-ul li {
     margin-bottom: 11px;
 }
 
-.amount-ul{
+.amount-ul {
     display: flex;
 }
-.amount-ul li{
+
+.amount-ul li {
     line-height: 0;
     margin-top: -2px;
 }
-.amount-span{
+
+.amount-span {
     width: 80px;
     height: 35px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
 }
 
-.input-disappeared:checked + .amount-span{
+.input-disappeared:checked+.amount-span {
     background: #F3D0DB;
 }
-.filter-rezults-ul{
+
+.filter-rezults-ul {
     margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.filter-rezults-li a{
+
+.filter-rezults-li {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.filter-rezults-li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+
+.filter-rezults-li a h5 {
+    margin-top: -17px;
+}
+
+.learn-more {
+    display: none;
+    height: 207px;
+    width: 207px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 192px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(229, 234, 248, 0.9);
+    text-align: center;
+}
+
+
+.filter-rezults-li a img:hover+.learn-more, .learn-more:hover {
+    display: flex;
+}
+
+.filter-rezults-li a img:active+.learn-more, .learn-more:active {
+    display: flex;
+    background-color: rgba(229, 234, 248, 0.67);
+}
+
+.pagination {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination-ul {
+    display: flex;
+    justify-content: center;
+    width: 243px;
+
+}
+
+.pagination-li {
+    margin-right: 33px;
+    margin-left: 33px;
+}
+
+.pagination-li h5 {
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 35px;
+}
+
+.pagination-li h5:hover {
+    color: #AAAAAA;
+}
+
+.pagination-active {
+    color: #C29974;
 }
