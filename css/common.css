@@ -12,7 +12,6 @@ body {
 a {
     text-decoration: none;
     color: #1E0606;
-    height: auto;
 }
 
 .main-logo {
@@ -31,22 +30,16 @@ h1 {
     text-transform: uppercase;
     font-family: 'Montserrat';
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0em;
-    text-align: left;
 }
 
-h2, .h2{
+h2, .h2 {
     text-transform: uppercase;
     font-family: 'Montserrat';
     font-size: 38px;
-    font-style: normal;
     font-weight: 700;
     line-height: 46px;
-    letter-spacing: 0em;
-    text-align: left;
 }
 
 h3 {
@@ -55,40 +48,29 @@ h3 {
     font-style: italic;
     font-weight: 400;
     line-height: 32px;
-    letter-spacing: 0em;
-    text-align: left;
-
 }
 
 h4 {
     font-family: 'Montserrat';
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: 31px;
-    letter-spacing: 0px;
-    text-align: left;
 }
 
 h5 {
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     line-height: 22px;
     letter-spacing: 0em;
-    text-align: left;
-
 }
 
 .header-nav a, .header-contuct-us, h6 {
     text-transform: uppercase;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
-
 }
 
 .header-nav a:hover, .header-contuct-us a:hover {
@@ -153,7 +135,6 @@ h5 {
     align-items: center;
     margin-top: 50px;
     padding-bottom: 43px;
-
 }
 
 .header-list {
@@ -169,12 +150,13 @@ h5 {
 }
 
 .header-search-icon {
-    margin-right: 24px;
-    margin-top: 3px;
+    margin-right: 20px;
+    margin-top: 6px;
 }
 
-.header-contuct-us a {
+.header-contuct-us {
     font-weight: 700;
+    letter-spacing: 0.5px;
 }
 
 .bread-crumbs {
@@ -183,7 +165,7 @@ h5 {
 
 .bread-crumbs-item::after {
     content: url(/img/arrow.svg);
-    margin-left: 22px;
+    margin-left: 20px;
     margin-right: 20PX;
 }
 
@@ -191,6 +173,7 @@ h5 {
     color: #8f8282;
     margin: 0;
 }
+
 .input-disappeared {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -205,7 +188,6 @@ h5 {
 }
 
 .input-disappeared:checked+.checkbox {
-
     background: url(../img/checkbox-on.svg) no-repeat center;
 }
 
@@ -256,27 +238,26 @@ footer {
     width: 380px;
 }
 
-.footer-hr {
-    height: 2px;
-    border: none;
-    background-color: #666666;
-
-}
-
 .footer-column-prop .footer-hr {
     margin-top: 22px;
 }
 
 .footer-columns-ul {
-    margin-top: 30px;
     margin-bottom: 28px;
+}
+
+.hr {
+    border-bottom: solid;
+    padding-bottom: 30px;
+    border-color: #666666;
+    margin-bottom: 15px;
 }
 
 .footer-columns li {
     margin-bottom: 15px;
 }
 
-.footer-columns a {
+footer a {
     color: #FFFFFF;
 }
 
@@ -287,7 +268,6 @@ footer {
 .input-email {
     height: 40px;
     width: 295px;
-    margin-top: 25px;
     margin-right: 0;
     border: 0;
     background-color: #666666;
@@ -317,12 +297,13 @@ footer {
     justify-content: space-between;
     color: #FFFFFF;
     padding-bottom: 100px;
+    border-top: solid;
+    border-color: #666666;
 }
 
-.rating {
+.rating-wrapper {
     border: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
 }
 
 .rating-caption {
@@ -363,7 +344,6 @@ footer {
 }
 
 .rating-star:nth-of-type(2) {
-
     width: 40px;
     z-index: 4;
 }
@@ -386,7 +366,8 @@ footer {
 .rating-wrapper:hover {
     color: #C29974;
 }
-.popup{
+
+.popup {
     position: fixed;
     background-color: rgba(125, 151, 218, 0.8);
     top: 0;
@@ -395,79 +376,86 @@ footer {
     width: 100%;
     display: none;
 }
-.popup-form{
+
+.popup-form {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.contact-form{
+.contact-form {
     display: flex;
     flex-direction: column;
-    background-color:#E5EAF8;
+    background-color: #E5EAF8;
     padding: 40px 40px;
     width: 680px;
 }
 
-.contact-form .contact-label{
+.contact-form .contact-label {
     display: flex;
     flex-direction: column;
     font-size: 14px;
-
 }
-.contact-form .input-wrapper{
+
+.contact-form .input-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 19px;
     margin-bottom: 20px;
-
 }
-.contact-form .button{
+
+.contact-form .button {
     width: 106px;
 }
-.contact-form input{
-height: 50px;
-margin-top: 2px;
-border: 1px rgba(0, 0, 0, 0.2);
-font-size: 18px;
-line-height: 25px;
-padding-left: 20px;
+
+.contact-form input {
+    height: 50px;
+    margin-top: 2px;
+    border: 1px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 20px;
 }
 
-.contact-form .input-wrapper input{
+.contact-form .input-wrapper input {
     width: 290px;
 }
 
-.contact-form textarea{
+.contact-form textarea {
     height: 150px;
     border: 1px rgba(0, 0, 0, 0.2);
 }
-.contact-form .personal-data-label{
+
+.contact-form .personal-data-label {
     justify-content: left;
     padding-left: 35px;
     padding-top: 3px;
-
 }
+
 .contact-form input[type="checkbox"] {
     height: 0px;
     width: 0px;
     padding: 0;
     margin: 0;
 }
-.contuct-form .checkbox{
+
+.contuct-form .checkbox {
     margin-left: -35px;
     margin-top: -3px;
 }
-.contact-form .button{
+
+.contact-form .button {
     margin-top: -3px;
-    height:40px
+    height: 40px
 }
-.popup-open{
+
+.popup-open {
     display: block;
 }
-.modal-close{
+
+.modal-close {
     background-color: transparent;
     border: 0;
     position: absolute;

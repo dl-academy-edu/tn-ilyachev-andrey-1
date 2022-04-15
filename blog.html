@@ -29,7 +29,8 @@
         <path
           d="M67.8074 0V51.7689H70.5941V27.3833L71.278 26.7025L96.0884 51.7689H100L73.2485 24.7414L98.1084 0H94.1675L70.5941 23.4612V0H67.8074Z"
           fill="#1E0606" />
-      </svg></a>
+      </svg>
+    </a>
     <!--Основной логотип-->
     <nav class="header-nav">
       <ul class="undotted header-list">
@@ -53,9 +54,7 @@
       </svg>
     </a>
     <!--иконка поиска-->
-    <div class="header-contuct-us">
-      <a href="#">Contact Us</a>
-    </div>
+    <a href="#" class="header-contuct-us banner-js">Contact Us</a>
   </header>
   <main>
     <h1 class="container">Blog</h1>
@@ -116,7 +115,8 @@
             <span class="article-date">23rd August 2018</span>
             <h4>Company logo or brand identity: which one is more important? brand identity</h4>
             <span class="article-intro">
-              To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.
+              To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our
+              simple, but effective, SEO tips for small business success.
             </span>
           </a>
         </li>
@@ -171,10 +171,9 @@
   </main>
   <footer>
     <div class="container footer-columns">
-      <section class="footer-navigation footer-column-prop">
-        <h4 class="hidden">Navigation</h4>
-        Navigation
-        <div class="footer-hr"></div>
+      <div class="footer-navigation footer-column-prop">
+        <div class="hr">Navigation</div>
+        
         <ul class="undotted footer-columns-ul">
           <li>
             <a href="#">About Us</a>
@@ -195,11 +194,9 @@
             <a href="#">Shop By Designer</a>
           </li>
         </ul>
-      </section>
-      <section class="footer-customer-information footer-column-prop">
-        <h4 class="hidden">Customer Information</h4>
-        Customer Information
-        <div class="footer-hr"></div>
+      </div>
+      <div class="footer-customer-information footer-column-prop">
+        <div class="hr">Customer Information</div>
         <ul class="undotted footer-columns-ul">
           <li>
             <a href="contactus.html">Contact Us</a>
@@ -220,11 +217,9 @@
             <a href="#">Search</a>
           </li>
         </ul>
-      </section>
-      <section class="footer-connect footer-column-prop">
-        <h4 class="hidden">Connect</h4>
-        Connect
-        <div class="footer-hr"></div>
+      </div>
+      <div class="footer-connect footer-column-prop">
+        <div class="hr">Connect</div>
         <input class="input-email" type="email" placeholder="Email">
         <button class="button">Join</button>
         <ul class="undotted social-icons">
@@ -277,30 +272,63 @@
             </a>
           </li>
         </ul>
-      </section>
+      </div>
     </div>
     <div class="container footer-hr"></div>
     <div class="container footer-last-row">
       <div class="footer-column-prop">
         <div class="rating-wrapper">
           <div class="rating-caption">Company Rating</div>
-          <fieldset class="rating">
-            <div class="rating-group">
-              <input class="rating-star" type="radio" name="health" value="1" aria-label="1">
-              <input class="rating-star" type="radio" name="health" value="2" aria-label="2">
-              <input class="rating-star" type="radio" name="health" value="3" aria-label="3">
-              <input class="rating-star" type="radio" name="health" value="4" aria-label="4">
-              <input class="rating-star" type="radio" name="health" value="5" aria-label="5">
-            </div>
-          </fieldset>
+          <div class="rating-group">
+            <input class="rating-star" type="radio" name="health" value="1" aria-label="1">
+            <input class="rating-star" type="radio" name="health" value="2" aria-label="2">
+            <input class="rating-star" type="radio" name="health" value="3" aria-label="3">
+            <input class="rating-star" type="radio" name="health" value="4" aria-label="4">
+            <input class="rating-star" type="radio" name="health" value="5" aria-label="5">
+          </div>
         </div>
       </div>
       <div class="footer-column-prop">
         Copyright © 2018 Dlk • Design Life Kids
       </div>
       <div class="footer-column-prop">
-        Web Design — Direct Line Development
+        <a href="#"> Web Design — Direct Line Development</a>
       </div>
+    </div>
+    <div class="popup">
+      <form action="#" method="post" class="contact-form popup-form">
+        <label class="contact-label">
+          Name
+          <input type="input" placeholder="Ivan Ivanov">
+        </label>
+        <div class="input-wrapper">
+          <label class="contact-label">
+            Phone
+            <input type="tel">
+          </label>
+          <label class="contact-label">
+            Email
+            <input type="email">
+          </label>
+        </div>
+        <label class="contact-label">
+          Message
+          <textarea></textarea>
+        </label>
+        <label class="contact-label personal-data-label input-wrapper">
+          <input type="checkbox" class="input-disappeared">
+          <span class="checkbox"></span>By clicking on the button, you consent to the processing of your personal data
+        </label>
+        <button type="submit" class="button">SUBMIT</button>
+        <button type="button" class="modal-close"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2.21902 14.6113C1.70029 15.1295 0.893368 15.1295 0.374636 14.6113C0.11527 14.3522 -1.92479e-07 14.0355 -1.77377e-07 13.69C-1.62275e-07 13.3445 0.11527 13.0278 0.374636 12.7687L5.64841 7.5L0.374637 2.23127C0.115271 1.97215 3.4867e-07 1.65547 3.63772e-07 1.30998C3.78874e-07 0.964491 0.115271 0.647806 0.374637 0.388689C0.893369 -0.129545 1.70029 -0.129545 2.21902 0.388689L7.4928 5.65738L12.7666 0.38869C13.2853 -0.129545 14.0922 -0.129545 14.611 0.38869C15.1297 0.906924 15.1297 1.71304 14.611 2.23127L9.33718 7.5L14.611 12.7687C15.1297 13.287 15.1297 14.0931 14.611 14.6113C14.0922 15.1295 13.2853 15.1295 12.7666 14.6113L7.4928 9.34258L2.21902 14.6113Z"
+              fill="white" />
+          </svg>
+        </button>
+      </form>
+
     </div>
   </footer>
 </body>
