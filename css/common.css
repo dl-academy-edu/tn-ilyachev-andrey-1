@@ -191,6 +191,23 @@ h5 {
     color: #8f8282;
     margin: 0;
 }
+.input-disappeared {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.checkbox {
+    margin-left: -29px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: url(../img/checkbox-off.svg) no-repeat center;
+}
+
+.input-disappeared:checked+.checkbox {
+
+    background: url(../img/checkbox-on.svg) no-repeat center;
+}
 
 .pagination {
     margin-top: 30px;
@@ -368,4 +385,92 @@ footer {
 
 .rating-wrapper:hover {
     color: #C29974;
+}
+.popup{
+    position: fixed;
+    background-color: rgba(125, 151, 218, 0.8);
+    top: 0;
+    left 0;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+.popup-form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    background-color:#E5EAF8;
+    padding: 40px 40px;
+    width: 680px;
+}
+
+.contact-form .contact-label{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+
+}
+.contact-form .input-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 19px;
+    margin-bottom: 20px;
+
+}
+.contact-form .button{
+    width: 106px;
+}
+.contact-form input{
+height: 50px;
+margin-top: 2px;
+border: 1px rgba(0, 0, 0, 0.2);
+font-size: 18px;
+line-height: 25px;
+padding-left: 20px;
+}
+
+.contact-form .input-wrapper input{
+    width: 290px;
+}
+
+.contact-form textarea{
+    height: 150px;
+    border: 1px rgba(0, 0, 0, 0.2);
+}
+.contact-form .personal-data-label{
+    justify-content: left;
+    padding-left: 35px;
+    padding-top: 3px;
+
+}
+.contact-form input[type="checkbox"] {
+    height: 0px;
+    width: 0px;
+    padding: 0;
+    margin: 0;
+}
+.contuct-form .checkbox{
+    margin-left: -35px;
+    margin-top: -3px;
+}
+.contact-form .button{
+    margin-top: -3px;
+    height:40px
+}
+.popup-open{
+    display: block;
+}
+.modal-close{
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    right: -25px;
+    top: 0;
 }
