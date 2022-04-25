@@ -1,0 +1,116 @@
+h1 {
+    margin-top: 20px;
+}
+
+.categories {
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+    padding-right: 100px;
+}
+
+.first-row {
+    margin-top: 44px;
+    align-self: flex-start;
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	justify-content: space-between;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+    width: 880px;
+
+}
+
+.second-row {
+    margin-top: 24px;
+    align-self: flex-end;
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	justify-content: space-between;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+    width: 880px;
+}
+
+.left-category {
+    align-self: flex-start;
+}
+
+.category-box {
+    height: 270px;
+    width: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+    padding: 50px;
+}
+
+.category-box a {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.aparel-kids {
+    background-color: #DBE4DB;
+    background-image: url(../img/aparel-kids.png);
+}
+
+.holiday-shop {
+    background-color: #EADDD3;
+    background-image: url(../img/holiday-shop.png);
+}
+
+.toys {
+    background-color: #F8F2DA;
+    background-image: url(../img/toys.png)
+}
+
+.accessories {
+    background-color: #D5D4E1;
+    background-image: url(../img/accessories.png);
+}
+.sale {
+    background-color: #F3D0DB;
+    background-image: url(../img/sale.png)
+}
+.apparel-adults {
+    background-color: #E5EAF8;
+    background-image: url(../img/apparel-adults.png)
+}
+.product-description{
+    margin-top: 26px;
+    margin-left: 201px;
+    width: 680px;
+}
+.product-description h2{
+    margin-bottom: 24px;
+}
+footer{
+    margin-top: 38px;
+}
